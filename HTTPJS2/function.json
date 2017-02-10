@@ -1,0 +1,18 @@
+{
+  "disabled": false,
+  "scriptFile":"../build/index.js",
+  "entryPoint":"HTTPJS2",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}
