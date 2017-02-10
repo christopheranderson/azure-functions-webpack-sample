@@ -2,7 +2,7 @@
 
 This is an example of using WebPack to bundle node modules for Node.js Azure Functions. This can result in large cold start improvements.
 
-:construction: This is an example and not officially supported :construction:
+:construction: This is an example and not officially supported. This does not yet work in Azure production - it requires a feature that's coming out in a release later this month! Will update this message when released. :construction:
 
 ## Try the sample
 
